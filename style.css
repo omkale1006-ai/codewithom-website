@@ -313,6 +313,7 @@
     .view-all-container {
       display: flex;
       justify-content: center;
+      text-align: center;
       margin: 20px 0;
     }
 
@@ -488,3 +489,4 @@
         width: 90%;
       }
     }
+
