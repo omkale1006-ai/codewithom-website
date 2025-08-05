@@ -313,7 +313,6 @@
     .view-all-container {
       display: flex;
       justify-content: center;
-      text-align: center;
       margin: 20px 0;
     }
 
@@ -324,6 +323,7 @@
       color: white;
       border-radius: 5px;
       text-decoration: none;
+      text-align: center;
       font-weight: 500;
       transition: all 0.3s;
     }
@@ -474,6 +474,7 @@
       /* View All Button Mobile Fix */
       .view-all-container {
         justify-content: center;
+        text-align: center;
         margin: 20px auto;
         padding: 0 20px;
       }
@@ -489,4 +490,5 @@
         width: 90%;
       }
     }
+
 
