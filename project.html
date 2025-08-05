@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0;
+      color: #333;
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 0 40px 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-image img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 20px;
+    }
+
+    .project-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #2563eb;
+    }
+
+    .project-description {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .project-tags {
+      
+      margin-bottom: 15px;
+    }
+
+    .project-tag {
+  display: inline-block;
+  background-color: #e0e7ff;
+  color: #1e40af;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-right: 5px;
+  margin-bottom: 8px; /* 👈 This line is most important */
+}
+
+
+    .project-links a {
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .project-links a:hover {
+      color: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Projects</h1>
+
+  <div class="projects-container">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img
+          src="https://realpython.com/cdn-cgi/image/width=1920,format=auto/https://files.realpython.com/media/Rock-Paper-Scissors-Make-Your-First-Python-Game_Watermarked.107e6ff4060c.jpg"
+          alt="Rock Paper Scissors">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Rock Paper Scissors - Python Console Game</h3>
+        <p class="project-description">A quick and fun Rock, Paper, Scissors game in Python where you play
+          against the computer. Simple, fast, and perfect for learning basic logic and user input!.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Random Module</span>
+          <span class="project-tag">String Methods</span>
+          <span class="project-tag">Functions</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/Rock-Paper-Scissors-game/commits?author=omkale1006-ai">
+            <i class="fab fa-github"></i> Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREuSE_AC4dMxx2w_WgRxNUSC9DpvofK0b8-g&s"
+          alt=" Snake Water Gun Game">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Snake Water Gun</h3>
+        <p class="project-description">A fun Python console game based on the classic Snake Water Gun logic.
+          You play against the computer using random moves. It covers conditional logic, functions, loops,
+          and user input handling. Great for beginners learning Python basics!.</p>
+        <div class="project-tags">
+          <span class="project-tag">Random Module</span>
+          <span class="project-tag">Functions</span>
+          <span class="project-tag">Logic Building</span>
+
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/snake-water-gun-game/commits?author=omkale1006-ai"> <i
+              class="fab fa-github"></i> Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- project 3 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img
+          src="https://media.istockphoto.com/id/1367134732/vector/password-storage-and-data-encryption-flat-scene.jpg?s=612x612&w=0&k=20&c=cg8bBM1Sx-xj_ZnWgymVi_3XLWyDxv6GK8Kgc2C3Sl4="
+          alt="password generator">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Ultimate Password Generator – Python Console Utility</h3>
+        <p class="project-description">A secure password generator built using Python. It randomly generates
+          strong passwords using uppercase, lowercase, digits, and symbols. Covers use of randomization,
+          string handling, input validation, and function-based logic. Ideal for learning random, string
+          modules, and custom logic building.</p>
+        <div class="project-tags">
+          <span class="project-tag">Random Module</span>
+          <span class="project-tag">String Module</span>
+          <span class="project-tag">Terminal Tool</span>
+
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/Ultimate-Password-Generator-"> <i class="fab fa-github"></i> Source
+            Code</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 4-->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="https://margbooks.com/assets/images/service-page/online_purchase_import_kirana_retail_chain.webp"
+          alt="Kirana Manager">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Kirana Manager Panel</h3>
+        <p class="project-description">A CLI-based Python module that allows the manager of a kirana store
+          to handle inventory, customer records, and sales reporting using secure login and file handling.
+        </p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">File Handling</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/Om-s-Kirana-Manager-Panel/commits?author=omkale1006-ai">
+            <i class="fab fa-github"></i> Source Code</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="https://margbooks.com/assets/images/service-page/centralized_inventory_kirana_retail_chain.webp"
+          alt="Kirana Billing">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Kirana Billing System</h3>
+        <p class="project-description">A Python-based CLI system that handles customer login, shopping cart,
+          item selection, and bill generation with automatic updates to item stock.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Billing</span>
+        </div>
+        <div class="project-links">
+          <a
+            href="https://github.com/omkale1006-ai/Om-s-Kirana-Store---Customer-Billing-Inventory-Management-System/commits?author=omkale1006-ai">
+            <i class="fab fa-github"></i> Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- project 6 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img
+          src="https://c8.alamy.com/comp/2R8E0R5/electricity-bill-payment-and-inspection-vector-illustration-cartoon-tiny-people-holding-magnifying-glass-and-calculator-to-check-readings-of-electric-meter-pay-per-kilowatt-and-energy-consumption-2R8E0R5.jpg"
+          alt="Electricity Bill Calculator">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Electricity Bill Calculator</h3>
+        <p class="project-description">A simple Python program that calculates electricity bills based on
+          unit consumption using fixed slab rates.</p>
+        <div class="project-tags">
+          <span class="project-tag">I/O Handling</span>
+          <span class="project-tag">Error Handling</span>
+          <span class="project-tag">Logic</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/Electricity-Bill-Calculator/commits?author=omkale1006-ai"><i
+              class="fab fa-github"></i>View
+            Code</a>
+        </div>
+      </div>
+    </div>
+    <!-- project 7 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="https://images.shiksha.com/mediadata/images/articles/1659013006phppJIzwr.jpeg"
+          alt="Exam Eligibility Checker">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Exam Eligibility Checker</h3>
+        <p class="project-description">A simple Python program that calculates a student's class attendance
+          percentage and checks whether the student is eligible to sit for the exam based on a minimum
+          requirement of 75%.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">String Formatting</span>
+          <span class="project-tag">Conditional Statements </span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/Exam-Eligibility-Checker/commits?author=omkale1006-ai"><i
+              class="fab fa-github"></i>View Code</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="https://img.freepik.com/free-vector/manager-prioritizing-tasks-list_74855-5272.jpg"
+          alt="College Student List Manager" />
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">College Student List Manager</h3>
+        <p class="project-description">A simple Python-based CLI tool to manage student names — search, add, sort, and
+          track student records easily.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Exception Handling</span>
+          <span class="project-tag">List Data Structure</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/omkale1006-ai/College-Student-List-Manager/commits?author=omkale1006-ai"><i
+              class="fab fa-github"></i>View Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
